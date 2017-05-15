@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		408AA7BD1EC3D9F800372C20 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408AA7BC1EC3D9F800372C20 /* TableViewController.swift */; };
+		408AA7D21EC3F47700372C20 /* !1barry_bonds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7BE1EC3F47700372C20 /* !1barry_bonds.jpg */; };
+		408AA7D31EC3F47700372C20 /* !2hank_aaron.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7BF1EC3F47700372C20 /* !2hank_aaron.jpg */; };
+		408AA7D41EC3F47700372C20 /* !3Babe Ruth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7C01EC3F47700372C20 /* !3Babe Ruth.jpg */; };
+		408AA7D51EC3F47700372C20 /* !4Alex Rodriguez.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7C11EC3F47700372C20 /* !4Alex Rodriguez.jpg */; };
+		408AA7D61EC3F47700372C20 /* !5Willie Mays.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7C21EC3F47700372C20 /* !5Willie Mays.jpg */; };
+		408AA7D71EC3F47700372C20 /* !6Ken Griffey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7C31EC3F47700372C20 /* !6Ken Griffey.jpg */; };
+		408AA7D81EC3F47700372C20 /* !7Jim Thome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7C41EC3F47700372C20 /* !7Jim Thome.jpg */; };
+		408AA7D91EC3F47700372C20 /* !8Sammy Sosa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7C51EC3F47700372C20 /* !8Sammy Sosa.jpg */; };
+		408AA7DA1EC3F47700372C20 /* !9Albert Pujols.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7C61EC3F47700372C20 /* !9Albert Pujols.jpg */; };
+		408AA7DB1EC3F47700372C20 /* 10Frank Robinson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7C71EC3F47700372C20 /* 10Frank Robinson.jpg */; };
+		408AA7DC1EC3F47700372C20 /* 11Mark McGuire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7C81EC3F47700372C20 /* 11Mark McGuire.jpg */; };
+		408AA7DD1EC3F47700372C20 /* 12Harmon Killebrew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7C91EC3F47700372C20 /* 12Harmon Killebrew.jpg */; };
+		408AA7DE1EC3F47700372C20 /* 13Rafael Palmeiro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7CA1EC3F47700372C20 /* 13Rafael Palmeiro.jpg */; };
+		408AA7DF1EC3F47700372C20 /* 14Reggie Jackson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7CB1EC3F47700372C20 /* 14Reggie Jackson.jpg */; };
+		408AA7E01EC3F47700372C20 /* 15Manny Ramirez.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7CC1EC3F47700372C20 /* 15Manny Ramirez.jpg */; };
+		408AA7E11EC3F47700372C20 /* 16Mike Schmidt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7CD1EC3F47700372C20 /* 16Mike Schmidt.jpg */; };
+		408AA7E21EC3F47700372C20 /* 17David Ortiz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7CE1EC3F47700372C20 /* 17David Ortiz.jpg */; };
+		408AA7E31EC3F47700372C20 /* 18Mickey Mantle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7CF1EC3F47700372C20 /* 18Mickey Mantle.jpg */; };
+		408AA7E41EC3F47700372C20 /* 19Jimmie Foxx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7D01EC3F47700372C20 /* 19Jimmie Foxx.jpg */; };
+		408AA7E51EC3F47700372C20 /* 20Willie McCovey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408AA7D11EC3F47700372C20 /* 20Willie McCovey.jpg */; };
+		40B77D581EC991A800848D70 /* headshot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40B77D571EC991A800848D70 /* headshot.jpg */; };
+		40BB4EB51EC563F500590AB8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BB4EB41EC563F500590AB8 /* TableViewCell.swift */; };
+		40BB4EB71EC5666100590AB8 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BB4EB61EC5666100590AB8 /* PlayerViewController.swift */; };
+		40DDF11D1EC1527B00F20373 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDF11C1EC1527B00F20373 /* AppDelegate.swift */; };
+		40DDF1211EC1527B00F20373 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDF1201EC1527B00F20373 /* AboutMeViewController.swift */; };
+		40DDF1241EC1527B00F20373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DDF1221EC1527B00F20373 /* Main.storyboard */; };
+		40DDF1261EC1527B00F20373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DDF1251EC1527B00F20373 /* Assets.xcassets */; };
+		40DDF1291EC1527B00F20373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DDF1271EC1527B00F20373 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		408AA7BC1EC3D9F800372C20 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		408AA7BE1EC3F47700372C20 /* !1barry_bonds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "!1barry_bonds.jpg"; sourceTree = "<group>"; };
+		408AA7BF1EC3F47700372C20 /* !2hank_aaron.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "!2hank_aaron.jpg"; sourceTree = "<group>"; };
+		408AA7C01EC3F47700372C20 /* !3Babe Ruth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "!3Babe Ruth.jpg"; sourceTree = "<group>"; };
+		408AA7C11EC3F47700372C20 /* !4Alex Rodriguez.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "!4Alex Rodriguez.jpg"; sourceTree = "<group>"; };
+		408AA7C21EC3F47700372C20 /* !5Willie Mays.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "!5Willie Mays.jpg"; sourceTree = "<group>"; };
+		408AA7C31EC3F47700372C20 /* !6Ken Griffey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "!6Ken Griffey.jpg"; sourceTree = "<group>"; };
+		408AA7C41EC3F47700372C20 /* !7Jim Thome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "!7Jim Thome.jpg"; sourceTree = "<group>"; };
+		408AA7C51EC3F47700372C20 /* !8Sammy Sosa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "!8Sammy Sosa.jpg"; sourceTree = "<group>"; };
+		408AA7C61EC3F47700372C20 /* !9Albert Pujols.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "!9Albert Pujols.jpg"; sourceTree = "<group>"; };
+		408AA7C71EC3F47700372C20 /* 10Frank Robinson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10Frank Robinson.jpg"; sourceTree = "<group>"; };
+		408AA7C81EC3F47700372C20 /* 11Mark McGuire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11Mark McGuire.jpg"; sourceTree = "<group>"; };
+		408AA7C91EC3F47700372C20 /* 12Harmon Killebrew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12Harmon Killebrew.jpg"; sourceTree = "<group>"; };
+		408AA7CA1EC3F47700372C20 /* 13Rafael Palmeiro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "13Rafael Palmeiro.jpg"; sourceTree = "<group>"; };
+		408AA7CB1EC3F47700372C20 /* 14Reggie Jackson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "14Reggie Jackson.jpg"; sourceTree = "<group>"; };
+		408AA7CC1EC3F47700372C20 /* 15Manny Ramirez.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "15Manny Ramirez.jpg"; sourceTree = "<group>"; };
+		408AA7CD1EC3F47700372C20 /* 16Mike Schmidt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "16Mike Schmidt.jpg"; sourceTree = "<group>"; };
+		408AA7CE1EC3F47700372C20 /* 17David Ortiz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "17David Ortiz.jpg"; sourceTree = "<group>"; };
+		408AA7CF1EC3F47700372C20 /* 18Mickey Mantle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "18Mickey Mantle.jpg"; sourceTree = "<group>"; };
+		408AA7D01EC3F47700372C20 /* 19Jimmie Foxx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "19Jimmie Foxx.jpg"; sourceTree = "<group>"; };
+		408AA7D11EC3F47700372C20 /* 20Willie McCovey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20Willie McCovey.jpg"; sourceTree = "<group>"; };
+		40B77D571EC991A800848D70 /* headshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = headshot.jpg; sourceTree = "<group>"; };
+		40BB4EB41EC563F500590AB8 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		40BB4EB61EC5666100590AB8 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		40DDF1191EC1527B00F20373 /* ListViewApp_SamFoxx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListViewApp_SamFoxx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DDF11C1EC1527B00F20373 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40DDF1201EC1527B00F20373 /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		40DDF1231EC1527B00F20373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40DDF1251EC1527B00F20373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40DDF1281EC1527B00F20373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40DDF12A1EC1527B00F20373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40DDF1161EC1527B00F20373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		408AA7E61EC3F53500372C20 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				40B77D571EC991A800848D70 /* headshot.jpg */,
+				408AA7BE1EC3F47700372C20 /* !1barry_bonds.jpg */,
+				408AA7BF1EC3F47700372C20 /* !2hank_aaron.jpg */,
+				408AA7C01EC3F47700372C20 /* !3Babe Ruth.jpg */,
+				408AA7C11EC3F47700372C20 /* !4Alex Rodriguez.jpg */,
+				408AA7C21EC3F47700372C20 /* !5Willie Mays.jpg */,
+				408AA7C31EC3F47700372C20 /* !6Ken Griffey.jpg */,
+				408AA7C41EC3F47700372C20 /* !7Jim Thome.jpg */,
+				408AA7C51EC3F47700372C20 /* !8Sammy Sosa.jpg */,
+				408AA7C61EC3F47700372C20 /* !9Albert Pujols.jpg */,
+				408AA7C71EC3F47700372C20 /* 10Frank Robinson.jpg */,
+				408AA7C81EC3F47700372C20 /* 11Mark McGuire.jpg */,
+				408AA7C91EC3F47700372C20 /* 12Harmon Killebrew.jpg */,
+				408AA7CA1EC3F47700372C20 /* 13Rafael Palmeiro.jpg */,
+				408AA7CB1EC3F47700372C20 /* 14Reggie Jackson.jpg */,
+				408AA7CC1EC3F47700372C20 /* 15Manny Ramirez.jpg */,
+				408AA7CD1EC3F47700372C20 /* 16Mike Schmidt.jpg */,
+				408AA7CE1EC3F47700372C20 /* 17David Ortiz.jpg */,
+				408AA7CF1EC3F47700372C20 /* 18Mickey Mantle.jpg */,
+				408AA7D01EC3F47700372C20 /* 19Jimmie Foxx.jpg */,
+				408AA7D11EC3F47700372C20 /* 20Willie McCovey.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		40DDF1101EC1527B00F20373 = {
+			isa = PBXGroup;
+			children = (
+				40DDF11B1EC1527B00F20373 /* ListViewApp_SamFox */,
+				40DDF11A1EC1527B00F20373 /* Products */,
+				408AA7E61EC3F53500372C20 /* Images */,
+			);
+			sourceTree = "<group>";
+		};
+		40DDF11A1EC1527B00F20373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40DDF1191EC1527B00F20373 /* ListViewApp_SamFoxx.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40DDF11B1EC1527B00F20373 /* ListViewApp_SamFox */ = {
+			isa = PBXGroup;
+			children = (
+				40DDF11C1EC1527B00F20373 /* AppDelegate.swift */,
+				40DDF1201EC1527B00F20373 /* AboutMeViewController.swift */,
+				408AA7BC1EC3D9F800372C20 /* TableViewController.swift */,
+				40DDF1221EC1527B00F20373 /* Main.storyboard */,
+				40BB4EB61EC5666100590AB8 /* PlayerViewController.swift */,
+				40BB4EB41EC563F500590AB8 /* TableViewCell.swift */,
+				40DDF1251EC1527B00F20373 /* Assets.xcassets */,
+				40DDF1271EC1527B00F20373 /* LaunchScreen.storyboard */,
+				40DDF12A1EC1527B00F20373 /* Info.plist */,
+			);
+			name = ListViewApp_SamFox;
+			path = "Lab 2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40DDF1181EC1527B00F20373 /* ListViewApp_SamFoxx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DDF12D1EC1527B00F20373 /* Build configuration list for PBXNativeTarget "ListViewApp_SamFoxx" */;
+			buildPhases = (
+				40DDF1151EC1527B00F20373 /* Sources */,
+				40DDF1161EC1527B00F20373 /* Frameworks */,
+				40DDF1171EC1527B00F20373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ListViewApp_SamFoxx;
+			productName = "Lab 2";
+			productReference = 40DDF1191EC1527B00F20373 /* ListViewApp_SamFoxx.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40DDF1111EC1527B00F20373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = DeAnza;
+				TargetAttributes = {
+					40DDF1181EC1527B00F20373 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 40DDF1141EC1527B00F20373 /* Build configuration list for PBXProject "ListViewApp_SamFox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40DDF1101EC1527B00F20373;
+			productRefGroup = 40DDF11A1EC1527B00F20373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40DDF1181EC1527B00F20373 /* ListViewApp_SamFoxx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40DDF1171EC1527B00F20373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DDF1291EC1527B00F20373 /* LaunchScreen.storyboard in Resources */,
+				408AA7DF1EC3F47700372C20 /* 14Reggie Jackson.jpg in Resources */,
+				408AA7D41EC3F47700372C20 /* !3Babe Ruth.jpg in Resources */,
+				408AA7D91EC3F47700372C20 /* !8Sammy Sosa.jpg in Resources */,
+				408AA7E21EC3F47700372C20 /* 17David Ortiz.jpg in Resources */,
+				408AA7D51EC3F47700372C20 /* !4Alex Rodriguez.jpg in Resources */,
+				408AA7E11EC3F47700372C20 /* 16Mike Schmidt.jpg in Resources */,
+				40DDF1261EC1527B00F20373 /* Assets.xcassets in Resources */,
+				408AA7E51EC3F47700372C20 /* 20Willie McCovey.jpg in Resources */,
+				408AA7D31EC3F47700372C20 /* !2hank_aaron.jpg in Resources */,
+				408AA7D81EC3F47700372C20 /* !7Jim Thome.jpg in Resources */,
+				40B77D581EC991A800848D70 /* headshot.jpg in Resources */,
+				408AA7D71EC3F47700372C20 /* !6Ken Griffey.jpg in Resources */,
+				408AA7E31EC3F47700372C20 /* 18Mickey Mantle.jpg in Resources */,
+				40DDF1241EC1527B00F20373 /* Main.storyboard in Resources */,
+				408AA7DB1EC3F47700372C20 /* 10Frank Robinson.jpg in Resources */,
+				408AA7E41EC3F47700372C20 /* 19Jimmie Foxx.jpg in Resources */,
+				408AA7DC1EC3F47700372C20 /* 11Mark McGuire.jpg in Resources */,
+				408AA7DD1EC3F47700372C20 /* 12Harmon Killebrew.jpg in Resources */,
+				408AA7DE1EC3F47700372C20 /* 13Rafael Palmeiro.jpg in Resources */,
+				408AA7D61EC3F47700372C20 /* !5Willie Mays.jpg in Resources */,
+				408AA7E01EC3F47700372C20 /* 15Manny Ramirez.jpg in Resources */,
+				408AA7D21EC3F47700372C20 /* !1barry_bonds.jpg in Resources */,
+				408AA7DA1EC3F47700372C20 /* !9Albert Pujols.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40DDF1151EC1527B00F20373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DDF1211EC1527B00F20373 /* AboutMeViewController.swift in Sources */,
+				40BB4EB51EC563F500590AB8 /* TableViewCell.swift in Sources */,
+				408AA7BD1EC3D9F800372C20 /* TableViewController.swift in Sources */,
+				40DDF11D1EC1527B00F20373 /* AppDelegate.swift in Sources */,
+				40BB4EB71EC5666100590AB8 /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40DDF1221EC1527B00F20373 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40DDF1231EC1527B00F20373 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40DDF1271EC1527B00F20373 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40DDF1281EC1527B00F20373 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40DDF12B1EC1527B00F20373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40DDF12C1EC1527B00F20373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40DDF12E1EC1527B00F20373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lab 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.deanza.mgoel.Lab-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		40DDF12F1EC1527B00F20373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lab 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.deanza.mgoel.Lab-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40DDF1141EC1527B00F20373 /* Build configuration list for PBXProject "ListViewApp_SamFox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DDF12B1EC1527B00F20373 /* Debug */,
+				40DDF12C1EC1527B00F20373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40DDF12D1EC1527B00F20373 /* Build configuration list for PBXNativeTarget "ListViewApp_SamFoxx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DDF12E1EC1527B00F20373 /* Debug */,
+				40DDF12F1EC1527B00F20373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40DDF1111EC1527B00F20373 /* Project object */;
+}

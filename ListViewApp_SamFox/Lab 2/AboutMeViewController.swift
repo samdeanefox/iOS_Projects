@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
-//  HelloWorld
+//  SecondViewController.swift
+//  Lab 2
 //
-//  Created by samfo on 4/12/17.
-//  Copyright © 2017 Sam. All rights reserved.
+//  Created by samfo on 5/8/17.
+//  Copyright © 2017 DeAnza. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class AboutMeController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +20,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    
 
 }
 
